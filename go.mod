@@ -1,4 +1,4 @@
-module scheduler
+module github.com/angYuHao/scheduler
 
 go 1.26.1
 

@@ -1,5 +1,7 @@
 # scheduler
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/angYuHao/scheduler/blob/master/LICENSE)
+
 [中文](#中文说明) | [English](#english)
 
 基于**层级时间轮**的 Go 定时任务调度器：支持任务持久化、可插拔自定义触发器、全局并发控制与运行统计。
@@ -80,7 +82,7 @@ flowchart LR
 ### 快速开始
 
 ```bash
-go get scheduler          # 或将本目录作为 module 引入
+go get github.com/angYuHao/scheduler
 go build ./...
 ```
 
@@ -435,7 +437,7 @@ flowchart LR
 ### Quick start
 
 ```bash
-go get scheduler          # or import this directory as a module
+go get github.com/angYuHao/scheduler
 go build ./...
 ```
 

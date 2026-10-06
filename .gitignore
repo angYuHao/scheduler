@@ -1,0 +1,11 @@
+# IDE
+.idea/
+.vscode/
+
+# 工作区本地数据 / local workspace data
+.workbuddy/
+
+# 构建产物 / build artifacts
+*.exe
+*.test
+*.out
